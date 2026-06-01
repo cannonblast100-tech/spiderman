@@ -38,7 +38,7 @@ CLASSIFIED
 
 else if(villain==="ock"){
 
-villainImage.src="image/ock.jpeg";
+villainImage.src="ock.jpeg";
 
 villainName.innerHTML="DOCTOR OCTOPUS";
 
@@ -62,7 +62,7 @@ UNKNOWN
 
 else if(villain==="electro"){
 
-villainImage.src="image/electro.jpeg";
+villainImage.src="electro.jpeg";
 
 villainName.innerHTML="ELECTRO";
 
@@ -86,7 +86,7 @@ UNKNOWN
 
 else if(villain==="lizard"){
 
-villainImage.src="image/lizard.jpg";
+villainImage.src="lizard.jpg";
 
 villainName.innerHTML="LIZARD";
 
