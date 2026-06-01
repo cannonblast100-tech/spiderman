@@ -13,7 +13,7 @@ heroImage.style.display = "block";
 
 if(hero==="daredevil"){
 
-heroImage.src="image/daredevil.heic";
+heroImage.src="daredevil.heic";
 
 heroName.innerHTML="DAREDEVIL";
 
@@ -34,7 +34,7 @@ Primary ally during organized crime investigations.
 
 else if(hero==="punisher"){
 
-heroImage.src="image/punisher.webp";
+heroImage.src="punisher.webp";
 
 heroName.innerHTML="PUNISHER";
 
@@ -55,7 +55,7 @@ Independent operative. Assists against major criminal threats.
 
 else if(hero==="jessica"){
 
-heroImage.src="image/jessica.jpg";
+heroImage.src="jessica.jpg";
 
 heroName.innerHTML="JESSICA JONES";
 
@@ -74,7 +74,7 @@ Intelligence gathering and investigations.
 
 else if(hero==="luke"){
 
-heroImage.src="image/luke.jpg";
+heroImage.src="luke.jpg";
 
 heroName.innerHTML="LUKE CAGE";
 
@@ -93,7 +93,7 @@ Protects Harlem and supports emergency response.
 
 else if(hero==="ironfist"){
 
-heroImage.src="image/ironfist.png";
+heroImage.src="ironfist.png";
 
 heroName.innerHTML="IRON FIST";
 
@@ -112,7 +112,7 @@ High-risk combat specialist.
 
 else if(hero==="blackcat"){
 
-heroImage.src="image/blackcat.jpg";
+heroImage.src="blackcat.jpg";
 
 heroName.innerHTML="BLACK CAT";
 
@@ -131,7 +131,7 @@ Assists when interests align.
 
 else if(hero==="miles"){
 
-heroImage.src="image/milesmorales.jpg";
+heroImage.src="milesmorales.jpg";
 
 heroName.innerHTML="MILES MORALES";
 
