@@ -13,7 +13,7 @@ villainImage.style.display = "block";
 
 if(villain==="goblin"){
 
-villainImage.src="image/goblin.jpeg";
+villainImage.src="goblin.jpeg";
 
 villainName.innerHTML="GREEN GOBLIN";
 
