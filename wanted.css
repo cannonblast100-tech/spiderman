@@ -1,0 +1,120 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+min-height:100vh;
+}
+
+header{
+text-align:center;
+padding:40px;
+}
+
+header h1{
+font-size:4rem;
+color:#e62429;
+letter-spacing:5px;
+}
+
+header p{
+color:#aaa;
+}
+
+.alert{
+background:#e62429;
+padding:12px;
+text-align:center;
+font-weight:bold;
+margin-bottom:40px;
+}
+
+.database{
+display:grid;
+grid-template-columns:280px 1fr;
+gap:25px;
+padding:40px;
+max-width:1400px;
+margin:auto;
+}
+
+.villain-list{
+background:#111;
+border:2px solid #222;
+border-radius:15px;
+overflow:hidden;
+height:fit-content;
+}
+
+.villain-item{
+padding:20px;
+font-size:1.1rem;
+font-weight:bold;
+cursor:pointer;
+border-bottom:1px solid #222;
+transition:.3s;
+}
+
+.villain-item:last-child{
+border-bottom:none;
+}
+
+.villain-item:hover{
+background:#e62429;
+padding-left:30px;
+}
+
+.intel-panel{
+background:#111;
+border:2px solid #222;
+border-radius:15px;
+padding:30px;
+min-height:500px;
+box-shadow:0 0 20px rgba(230,36,41,.15);
+}
+
+#villainImage{
+width:280px;
+height:280px;
+object-fit:cover;
+object-position:center;
+border-radius:15px;
+margin:0 auto 25px auto;
+border:2px solid #e62429;
+display:block;
+box-shadow:0 0 15px rgba(230,36,41,.4);
+}
+
+#villainName{
+color:#e62429;
+font-size:2.2rem;
+margin-bottom:20px;
+letter-spacing:2px;
+}
+
+#villainInfo{
+font-size:1rem;
+line-height:1.9;
+color:#ddd;
+}
+
+#villainInfo b{
+color:#fff;
+}
+
+@media(max-width:768px){
+
+.database{
+grid-template-columns:1fr;
+}
+
+header h1{
+font-size:3rem;
+}
+
+}
