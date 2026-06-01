@@ -55,7 +55,7 @@ Independent operative. Assists against major criminal threats.
 
 else if(hero==="jessica"){
 
-heroImage.src="jessica.jpg";
+heroImage.src="Jessica.jpg";
 
 heroName.innerHTML="JESSICA JONES";
 
