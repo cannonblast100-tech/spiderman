@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wanted | HOPE</title>
+<link rel="stylesheet" href="wanted.css">
+</head>
+<body>
+
+<header>
+    <h1>WANTED</h1>
+    <p>Dangerous Individuals Database</p>
+</header>
+
+<div class="alert">
+⚠️ ACTIVE MANHUNT IN PROGRESS ⚠️
+</div>
+
+<div class="database">
+
+    <div class="villain-list">
+
+        <div class="villain-item" onclick="showVillain('goblin')">
+            Green Goblin
+        </div>
+
+        <div class="villain-item" onclick="showVillain('ock')">
+            Doctor Octopus
+        </div>
+
+        <div class="villain-item" onclick="showVillain('electro')">
+            Electro
+        </div>
+
+        <div class="villain-item" onclick="showVillain('lizard')">
+            Lizard
+        </div>
+
+    </div>
+
+    <div class="intel-panel">
+
+        <img id="villainImage"
+             src=""
+             alt="Villain"
+             style="display:none;">
+
+        <h2 id="villainName">
+            INTELLIGENCE DATABASE
+        </h2>
+
+        <div id="villainInfo">
+
+            Select a known hostile individual
+            from the left panel.
+
+            <br><br>
+
+            Records Available: 4
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="wanted.js"></script>
+
+</body>
+</html>

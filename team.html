@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEAM | HOPE</title>
+
+<link rel="stylesheet" href="team.css">
+</head>
+<body>
+
+<header>
+    <h1>TEAM</h1>
+    <p>Spider-Man Allied Operatives Database</p>
+</header>
+
+<div class="alert">
+🛡️ DEFENDERS NETWORK ONLINE 🛡️
+</div>
+
+<div class="database">
+
+    <div class="hero-list">
+
+        <div class="hero-item" onclick="showHero('daredevil')">
+            Daredevil
+        </div>
+
+        <div class="hero-item" onclick="showHero('punisher')">
+            Punisher
+        </div>
+
+        <div class="hero-item" onclick="showHero('jessica')">
+            Jessica Jones
+        </div>
+
+        <div class="hero-item" onclick="showHero('luke')">
+            Luke Cage
+        </div>
+
+        <div class="hero-item" onclick="showHero('ironfist')">
+            Iron Fist
+        </div>
+
+        <div class="hero-item" onclick="showHero('blackcat')">
+            Black Cat
+        </div>
+
+        <div class="hero-item" onclick="showHero('miles')">
+            Miles Morales
+        </div>
+
+    </div>
+
+    <div class="intel-panel">
+
+        <img id="heroImage"
+             src=""
+             alt="Hero"
+             style="display:none;">
+
+        <h2 id="heroName">
+            ALLIED OPERATIVES DATABASE
+        </h2>
+
+        <div id="heroInfo">
+
+            Select an operative from the left panel.
+
+            <br><br>
+
+            Active Records: 7
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="team.js"></script>
+
+</body>
+</html>

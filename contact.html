@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Report Crime | HOPE</title>
+
+<link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+
+<header>
+
+    <h1>REPORT A CRIME</h1>
+
+    <p>HOPE Emergency Network</p>
+
+</header>
+
+<div class="alert">
+
+🚨 ACTIVE INCIDENT REPORTING SYSTEM 🚨
+
+</div>
+
+<div class="container">
+
+    <form id="crimeForm">
+
+        <label>Your Name</label>
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required>
+
+        <label>Incident Location</label>
+
+        <input
+        type="text"
+        id="location"
+        placeholder="Enter location"
+        required>
+
+        <label>Threat Level</label>
+
+        <select id="threat">
+
+            <option>Low Risk</option>
+            <option>Suspicious Activity</option>
+            <option>Villain Sighting</option>
+            <option>Emergency</option>
+            <option>Citywide Threat</option>
+
+        </select>
+
+        <label>Description</label>
+
+        <textarea
+        id="description"
+        rows="6"
+        placeholder="Describe the incident..."
+        required></textarea>
+
+        <button type="submit">
+
+            SEND ALERT
+
+        </button>
+
+    </form>
+
+</div>
+
+<!-- POPUP -->
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <h2>🕷️ ALERT TRANSMITTED</h2>
+
+        <p>
+
+        Your report has been forwarded
+        to the HOPE Network.
+
+        <br><br>
+
+        Stay Safe.
+
+        </p>
+
+        <button id="closeBtn">
+
+        CLOSE
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="contact.js"></script>
+
+</body>
+</html>
