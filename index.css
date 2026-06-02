@@ -19,12 +19,15 @@ background:rgba(0,0,0,0.8);
 position:fixed;
 width:100%;
 z-index:100;
+backdrop-filter:blur(10px);
 }
+
 
 .logo{
 font-size:2rem;
 font-weight:bold;
 color:#e62429;
+letter-spacing:2px;
 }
 
 nav ul{
