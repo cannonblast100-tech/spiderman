@@ -1,21 +1,42 @@
 /* MOBILE */
 
+.menu-btn{
+display:none;
+font-size:30px;
+cursor:pointer;
+color:white;
+}
+
 @media (max-width:768px){
 
+/* NAVBAR */
+
 nav{
-flex-direction:column;
-padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+padding:15px 20px;
+}
+
+.menu-btn{
+display:block;
 }
 
 nav ul{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
+display:none;
+width:100%;
+flex-direction:column;
+text-align:center;
+margin-top:15px;
 gap:15px;
-margin-top:10px;
 }
 
-/* Hero */
+nav ul.active{
+display:flex;
+}
+
+/* HERO */
 
 .hero h1{
 font-size:3rem;
@@ -25,7 +46,7 @@ font-size:3rem;
 font-size:1rem;
 }
 
-/* Image + Text Sections */
+/* IMAGE + TEXT SECTIONS */
 
 .hero-info{
 flex-direction:column;
@@ -38,7 +59,7 @@ width:90%;
 max-width:350px;
 }
 
-/* Cards */
+/* STATS */
 
 .stats{
 flex-direction:column;
@@ -49,7 +70,7 @@ align-items:center;
 width:90%;
 }
 
-/* Database Pages */
+/* DATABASE PAGES */
 
 .database{
 grid-template-columns:1fr !important;
@@ -63,13 +84,13 @@ width:100%;
 width:100%;
 }
 
-/* Team Page */
+/* TEAM PAGE */
 
 .team-list{
 width:100%;
 }
 
-/* News Cards */
+/* NEWS CARDS */
 
 .news-container{
 grid-template-columns:1fr;
@@ -79,7 +100,7 @@ grid-template-columns:1fr;
 width:100%;
 }
 
-/* Forms */
+/* FORMS */
 
 .container{
 width:95%;
@@ -90,48 +111,18 @@ form{
 width:100%;
 }
 
-/* Images */
+/* IMAGES */
 
 img{
 max-width:100%;
 height:auto;
 }
 
-/* Footer */
+/* FOOTER */
 
 footer{
 text-align:center;
 padding:20px;
-}
-
-}
-.menu-btn{
-display:none;
-font-size:30px;
-cursor:pointer;
-color:white;
-}
-
-@media(max-width:768px){
-
-.menu-btn{
-display:block;
-}
-
-nav{
-flex-wrap:wrap;
-}
-
-nav ul{
-display:none;
-width:100%;
-flex-direction:column;
-text-align:center;
-margin-top:15px;
-}
-
-nav ul.active{
-display:flex;
 }
 
 }
