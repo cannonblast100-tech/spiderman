@@ -241,3 +241,24 @@ document.getElementById("navLinks");
 navLinks.classList.toggle("active");
 
 }
+function toggleMenu(){
+
+const navLinks =
+document.getElementById("navLinks");
+
+const menuBtn =
+document.querySelector(".menu-btn");
+
+navLinks.classList.toggle("active");
+
+if(navLinks.classList.contains("active")){
+
+menuBtn.innerHTML = "✕";
+
+}else{
+
+menuBtn.innerHTML = "☰";
+
+}
+
+}
