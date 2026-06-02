@@ -1,0 +1,107 @@
+/* MOBILE */
+
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+padding:15px;
+}
+
+nav ul{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:10px;
+}
+
+/* Hero */
+
+.hero h1{
+font-size:3rem;
+}
+
+.hero p{
+font-size:1rem;
+}
+
+/* Image + Text Sections */
+
+.hero-info{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-info img,
+.image-box img{
+width:90%;
+max-width:350px;
+}
+
+/* Cards */
+
+.stats{
+flex-direction:column;
+align-items:center;
+}
+
+.card{
+width:90%;
+}
+
+/* Database Pages */
+
+.database{
+grid-template-columns:1fr !important;
+}
+
+.villain-list{
+width:100%;
+}
+
+.intel-panel{
+width:100%;
+}
+
+/* Team Page */
+
+.team-list{
+width:100%;
+}
+
+/* News Cards */
+
+.news-container{
+grid-template-columns:1fr;
+}
+
+.news-card{
+width:100%;
+}
+
+/* Forms */
+
+.container{
+width:95%;
+padding:10px;
+}
+
+form{
+width:100%;
+}
+
+/* Images */
+
+img{
+max-width:100%;
+height:auto;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+}
+
+}
